@@ -1,0 +1,62 @@
+Arguments: 
+  /home/denis/.nvm/versions/node/v14.12.0/bin/node /usr/share/yarn/bin/yarn.js publish
+
+PATH: 
+  /home/denis/.nvm/versions/node/v14.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/denis/Android/Sdk/emulator:/home/denis/Android/Sdk/tools:/home/denis/Android/Sdk/tools/bin:/home/denis/Android/Sdk/platform-tools:/home/denis/android-studio/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137009:13)
+      at Interface.emit (events.js:314:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:314:20)
+      at emitKeys (internal/readline/utils.js:344:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:307:12)
+
+npm manifest: 
+  {
+    "name": "react-native-template",
+    "version": "0.0.2",
+    "description": "Clean React Native template for a quick start.",
+    "scripts": {
+      "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+    },
+    "files": [
+      "template",
+      "template.config.js"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/denisprado/react-native-template.git"
+    },
+    "keywords": [
+      "react-native",
+      "template",
+      "boilerplate"
+    ],
+    "author": "denis Forigo <denisforigo@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/denisprado/react-native-template.git/issues"
+    },
+    "homepage": "https://github.com/denisprado/react-native-template.git#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

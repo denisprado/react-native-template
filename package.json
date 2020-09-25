@@ -1,9 +1,9 @@
 {
-  "name": "react-native-template",
-  "version": "0.0.1",
+  "name": "react-native-template-bw",
+  "version": "0.0.2",
   "description": "Clean React Native template for a quick start.",
   "scripts": {
-    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+    "prepublishOnly": "npm --no-git-tag-version version"
   },
   "files": [
     "template",
@@ -18,7 +18,7 @@
     "template",
     "boilerplate"
   ],
-  "author": "denis Forigo <denisforigo@gmail.com>",
+  "author": "denis Forigo <denis.forigo@brainweb.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/denisprado/react-native-template.git/issues"
