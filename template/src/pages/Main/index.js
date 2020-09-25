@@ -36,15 +36,15 @@ const styles = StyleSheet.create({
 const Main = () => (
   <ImageBackground
     source={{
-      uri: 'https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/background.png',
+      uri: 'http://www.brainweb.com.br/assets/images/temp/intro-bg.jpg',
     }}
     style={styles.container}
     resizeMode="cover"
   >
-    <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
+    <StatusBar barStyle="light-content" backgroundColor="#3403B6" />
     <Image
       source={{
-        uri: 'https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo.png',
+        uri: 'http://www.brainweb.com.br/assets/images/logo-big.png',
       }}
       style={styles.logo}
       resizeMode="contain"

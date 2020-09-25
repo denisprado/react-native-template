@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Main from '~/pages/Main';
+import Main from './pages/Main';
 
 const Stack = createStackNavigator();
 
@@ -14,7 +14,7 @@ export default function Routes() {
           component={Main}
           options={{
             title: 'Tela Principal',
-            headerStyle: { backgroundColor: '#7159c1' },
+            headerStyle: { backgroundColor: '#3403B6' },
             headerTintColor: '#fff',
             headerTitleAlign: 'center',
           }}
