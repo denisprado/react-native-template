@@ -1,7 +1,7 @@
 {
-  "name": "react-native-template-typescript",
+  "name": "react-native-template",
   "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "description": "Clean React Native template for a quick start.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
   },
@@ -11,19 +11,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/denisprado/react-native-template.git"
   },
   "keywords": [
     "react-native",
-    "typescript",
-    "jest",
     "template",
     "boilerplate"
   ],
-  "author": "Emin Khateeb <emin@emin.ch>",
+  "author": "denis Forigo <denisforigo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    "url": "https://github.com/denisprado/react-native-template.git/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/denisprado/react-native-template.git#readme"
 }
